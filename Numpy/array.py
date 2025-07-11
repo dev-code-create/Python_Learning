@@ -15,5 +15,5 @@ print(matrix)
 
 print(matrix.shape)
 new_matrix = np.reshape(matrix,(4,1))
-print(new_matrix)
+print(new_matrix*2)
 
