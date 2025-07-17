@@ -22,3 +22,9 @@ dt.fit(X_train, y_train)
 dt_pred = dt.predict(X_test)
 
 print("Decision Tree Accuracy:", accuracy_score(y_test, dt_pred))
+
+# Step 4: Random Forest model
+rf = RandomForestClassifier(n_estimators=100)
+rf.fit(X_train, y_train)
+rf_pred = rf.predict(X_test)
+print("Random Forest Accuracy:", accuracy_score(y_test, rf_pred))
