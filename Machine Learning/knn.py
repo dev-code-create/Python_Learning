@@ -22,3 +22,7 @@ model.fit(X_train , Y_train)
 y_pred = model.predict(X_test)
 
 print("Accuracy:", accuracy_score(Y_test, y_pred))
+
+new_data = [[172, 68]]
+result = model.predict(new_data)
+print("Predicted Gender:", le.inverse_transform(result)[0])

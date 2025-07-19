@@ -7,9 +7,9 @@ texts = [
     "Free entry in 2 a weekly competition to win cash",
     "Hey, how are you doing?",
     "Congratulations, you have won a prize!",
-    "Call me when you’re free",
+    "Call me when you are free",
     "Urgent! Your number has won",
-    "Let’s catch up tomorrow",
+    "Lets catch up tomorrow",
 ]
 
 labels = [1, 0, 1, 0, 1, 0]  # 1 = spam, 0 = not spam
